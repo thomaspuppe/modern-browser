@@ -4,7 +4,7 @@
   "description": "Modern Browser",
   "private": true,
   "scripts": {
-    "build": "npm run styledictionary",
+    "build": "npm run styledictionary && npm run typescript",
     "serve": "light-server -c .lightserverrc",
     "styledictionary": "style-dictionary build -c ./token.config.js",
     "typescript": "tsc",
