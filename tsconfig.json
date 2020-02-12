@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "public"
+  },
+  "exclude": [
+    "node_modules",
+    "public",
+    "**/*.spec.ts"
+  ]
+}
