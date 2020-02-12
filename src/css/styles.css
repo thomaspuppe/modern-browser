@@ -6,6 +6,7 @@ body {
 
 h1, h2, h3 {
     color: var(--mb-color-headline);
+    margin: 0.3em 0 0.8em
 }
 
 header {
