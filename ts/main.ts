@@ -1,3 +1,3 @@
-import AmbientLight from './AmbientLight.js';
+import Sensor from './Sensor.js';
 
-const foo = new AmbientLight();
+const foo = new Sensor();

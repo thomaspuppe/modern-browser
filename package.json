@@ -4,7 +4,7 @@
   "description": "Modern Browser",
   "private": true,
   "scripts": {
-  	"netlify": "NETLIFY_AUTH_TOKEN=f4aac4ecc9781d4350fa86bddc0fc842be71a2b7302b260903daa58e1e8e35f2 netlify",
+    "netlify": "netlify",
     "test": "echo \"Error: no test specified\" && exit 1",
     "typescript": "tsc"
   },
@@ -25,10 +25,10 @@
   ],
   "homepage": "https://github.com/thomaspuppe/modern-browser#readme",
   "devDependencies": {
+    "@types/w3c-generic-sensor": "^1.0.2",
     "netlify-cli": "^2.32.0",
     "style-dictionary": "^2.8.3",
     "typescript": "^3.7.5"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
