@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "npm run styles && npm run typescript",
-    "copy:style": "cp src/css/style.css public/css/style.css",
+    "copy:style": "cp src/css/styles.css public/css/styles.css",
     "serve": "light-server -c .lightserverrc",
     "styles": "npm run styledictionary && npm run copy:style",
     "styledictionary": "style-dictionary build -c ./token.config.js",

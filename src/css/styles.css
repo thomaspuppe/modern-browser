@@ -1,6 +1,7 @@
 body {
 	background: var(--mb-color-background);
-	color: var(--mb-color-paragraph);
+    color: var(--mb-color-paragraph);
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3 {

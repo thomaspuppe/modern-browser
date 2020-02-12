@@ -5,7 +5,7 @@
     "delay": 100,
     "quiet": true,
     "watchexps": [
-        "src/css/**/*.scss # npm run css:dev # reloadcss",
+        "src/css/**/*.css # npm run styles # reloadcss",
         "style-tokens/**/*.json # npm run styledictionary # reloadstyletokens",
         "dist/**/*.html"
  ],
