@@ -1,9 +1,56 @@
 body {
-	background: var(--mb-color-background);
+    background: var(--mb-color-background);
     color: var(--mb-color-paragraph);
     font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3 {
-	color: var(--mb-color-headline);	
+    color: var(--mb-color-headline);
+    margin: 0.3em 0 0.8em
+}
+
+header {
+    text-align: center;
+    margin-bottom: var(--mb-size-margin-large);
+}
+
+main {
+    display: grid;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+article {
+    background-color: var(--mb-color-card-background);
+    border-radius: 10px;
+    color: var(--mb-color-paragraph);
+    padding: var(--mb-size-padding-medium);
+}
+
+article h3 {
+    font-size: var(--mb-size-font-large);
+}
+
+button {
+    background-color: var(--mb-color-button-background);
+    border: none;
+    border-radius: 4px;
+    color: var(--mb-color-button-text);
+    cursor: pointer;
+    font-size: var(--mb-size-font-medium);
+    padding: var(--mb-size-padding-small) var(--mb-size-padding-medium);
+    transition-duration: 150ms;
+}
+
+button:focus,
+button:hover {
+    background-color: var(--mb-color-button-highlight);
+}
+
+@media screen and (min-width: 769px){
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
