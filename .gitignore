@@ -2,3 +2,6 @@
 /public
 /dist
 .ds_store
+
+# Local Netlify folder
+.netlify
