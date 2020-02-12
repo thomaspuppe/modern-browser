@@ -1,0 +1,8 @@
+body {
+	background: var(--mb-color-background);
+	color: var(--mb-color-paragraph);
+}
+
+h1, h2, h3 {
+	color: var(--mb-color-headline);	
+}
