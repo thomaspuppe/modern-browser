@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/thomaspuppe/modern-browser#readme",
   "devDependencies": {
-    "style-dictionary": "^2.8.3"
+    "style-dictionary": "^2.8.3",
+    "typescript": "^3.7.5"
   }
 }
