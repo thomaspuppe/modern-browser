@@ -25,7 +25,7 @@ const getStyleTokenConfig = theme => {
         'platforms': {
             'css': {
                 'transformGroup': 'custom/web',
-                'buildPath': './src/css/',
+                'buildPath': './public/css/',
                 'prefix': 'mb',
                 'files': [{
                     'destination': `css-vars-${theme}.css`,
