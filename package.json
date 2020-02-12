@@ -4,8 +4,10 @@
   "description": "Modern Browser",
   "private": true,
   "scripts": {
-    "build": "npm run styledictionary && npm run typescript",
+    "build": "npm run styles && npm run typescript",
+    "copy:style": "cp src/css/style.css public/css/style.css",
     "serve": "light-server -c .lightserverrc",
+    "styles": "npm run styledictionary && npm run copy:style",
     "styledictionary": "style-dictionary build -c ./token.config.js",
     "typescript": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"

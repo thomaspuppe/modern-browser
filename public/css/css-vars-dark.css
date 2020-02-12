@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 12 Feb 2020 13:41:31 GMT
+ * Generated on Wed, 12 Feb 2020 14:09:03 GMT
  */
 
 :root {
@@ -13,4 +13,13 @@
   --mb-size-margin-small: 10px;
   --mb-size-margin-medium: 15px;
   --mb-size-margin-large: 20px;
+  --mb-color-background: #16161a;
+  --mb-color-headline: #fffffe;
+  --mb-color-paragraph: #94a1b2;
+  --mb-color-button-background: #7f5af0;
+  --mb-color-button-text: #fffffe;
+  --mb-color-button-highlight: #fffffe;
+  --mb-color-card-background: #242629;
+  --mb-color-card-headline: #fffffe;
+  --mb-color-card-paragraph: #94a1b2;
 }

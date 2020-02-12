@@ -1,3 +1,17 @@
 {
-    
+    "color": {
+        "background": { "value": "#16161a" },
+        "headline": { "value": "#fffffe" },
+        "paragraph": { "value": "#94a1b2" },
+        "button": {
+            "background": { "value": "#7f5af0" },
+            "text": { "value": "#fffffe" },
+            "highlight": { "value": "#fffffe" }
+        },
+        "card": {
+            "background": { "value": "#242629" },
+            "headline": { "value": "{color.button.text.value}" },
+            "paragraph": { "value": "{color.paragraph.value}" }
+        }
+    }
 }
