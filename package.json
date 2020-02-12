@@ -4,6 +4,7 @@
   "description": "Modern Browser",
   "private": true,
   "scripts": {
+    "build": "npm run typescript",
     "test": "echo \"Error: no test specified\" && exit 1",
     "typescript": "tsc"
   },
