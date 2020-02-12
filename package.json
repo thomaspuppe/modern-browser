@@ -32,5 +32,8 @@
     "light-server": "^2.6.4",
     "style-dictionary": "^2.8.3",
     "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "netlify-plugin-lighthouse": "^0.1.2"
   }
 }

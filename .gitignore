@@ -3,3 +3,6 @@
 /public/css/
 /dist
 .ds_store
+
+# Local Netlify folder
+.netlify
