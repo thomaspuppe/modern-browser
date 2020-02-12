@@ -1,0 +1,14 @@
+{
+    "port": 4000,
+    "serve": "public",
+    "bind": "localhost",
+    "delay": 100,
+    "quiet": true,
+    "watchexps": [
+        "src/css/**/*.scss # npm run css:dev # reloadcss",
+        "style-tokens/**/*.json # npm run styledictionary # reloadstyletokens",
+        "dist/**/*.html"
+ ],
+ "http2": false,
+ "open": true
+}
