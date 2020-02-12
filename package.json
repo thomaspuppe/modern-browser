@@ -1,10 +1,11 @@
 {
   "name": "modern-browser",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Modern Browser",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typescript": "tsc"
   },
   "repository": {
     "type": "git",
@@ -12,12 +13,18 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/thomaspuppe/modern-browser/issues"
   },
+  "browserslist": [
+    "last 2 versions",
+    "not Android > 0",
+    "not Explorer > 0"
+  ],
   "homepage": "https://github.com/thomaspuppe/modern-browser#readme",
   "devDependencies": {
-    "style-dictionary": "^2.8.3"
+    "style-dictionary": "^2.8.3",
+    "typescript": "^3.7.5"
   }
 }
