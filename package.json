@@ -4,8 +4,10 @@
   "description": "Modern Browser",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "typescript": "tsc"
+    "build": "npm run styledictionary",
+    "styledictionary": "style-dictionary build -c ./token.config.js",
+    "typescript": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

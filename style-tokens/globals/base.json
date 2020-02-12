@@ -1,0 +1,19 @@
+{
+    "size": {
+        "font": {
+            "small": { "value": "12px" },
+            "medium": { "value": "16px" },
+            "large": { "value": "32px" }
+        },
+        "padding": {
+            "small": { "value": "10px" },
+            "medium": { "value": "15px" },
+            "large": { "value": "20px" }
+        },
+        "margin": {
+            "small": { "value": "10px" },
+            "medium": { "value": "15px" },
+            "large": { "value": "20px" }
+        }
+    }
+}
