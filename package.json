@@ -4,9 +4,11 @@
   "description": "Modern Browser",
   "private": true,
   "scripts": {
-    "build": "npm run typescript",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "typescript": "tsc"
+    "build": "npm run styledictionary && npm run typescript",
+    "serve": "light-server -c .lightserverrc",
+    "styledictionary": "style-dictionary build -c ./token.config.js",
+    "typescript": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
   ],
   "homepage": "https://github.com/thomaspuppe/modern-browser#readme",
   "devDependencies": {
+    "light-server": "^2.6.4",
     "style-dictionary": "^2.8.3",
     "typescript": "^3.7.5"
   }
