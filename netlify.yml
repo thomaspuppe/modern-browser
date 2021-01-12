@@ -1,0 +1,4 @@
+plugins:
+  - package: netlify-plugin-lighthouse
+    config:
+      url: "https://modern-browser.netlify.com/"

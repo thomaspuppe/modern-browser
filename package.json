@@ -4,7 +4,12 @@
   "description": "Modern Browser",
   "private": true,
   "scripts": {
-    "netlify": "netlify",
+    "build": "npm run styles && npm run typescript",
+    "copy:style": "cp src/css/styles.css public/css/styles.css",
+    "deploy": "netlify deploy",
+    "serve": "light-server -c .lightserverrc",
+    "styles": "npm run styledictionary && npm run copy:style",
+    "styledictionary": "style-dictionary build -c ./token.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "typescript": "tsc"
   },
@@ -26,9 +31,10 @@
   "homepage": "https://github.com/thomaspuppe/modern-browser#readme",
   "devDependencies": {
     "@types/w3c-generic-sensor": "^1.0.2",
+    "light-server": "^2.6.4",
     "netlify-cli": "^2.32.0",
+    "netlify-plugin-lighthouse": "^0.1.2",
     "style-dictionary": "^2.8.3",
-    "typescript": "^3.7.5"
-  },
-  "dependencies": {}
+    "typescript": "^4.1.3"
+  }
 }
